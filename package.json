@@ -1,0 +1,14 @@
+{
+  "name": "aditya-l1-space-telemetry-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aditya-L1 Solar Telemetry & Space Anomaly Monitoring Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "start:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start:ingestor": "python pradan_multi_payload_ingestor.py --serve-api",
+    "start": "npm --prefix frontend run dev"
+  }
+}
