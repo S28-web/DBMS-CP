@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aditya-L1 Solar Telemetry & Event Monitoring Platform
 
 A full-stack space-weather telemetry management, anomaly detection, and scientific database analytics platform built for India's **[Aditya-L1](https://www.isro.gov.in/Aditya_L1.html)** solar observatory mission at the Sun–Earth Lagrange Point L1 (~1.5 million km from Earth).
@@ -89,3 +90,6 @@ To load the 21-table schema into PostgreSQL 15+:
 createdb aditya_l1_telemetry
 psql -d aditya_l1_telemetry -f aditya_l1_dbms_complete_schema_and_queries.sql
 ```
+=======
+# DBMS-CP
+>>>>>>> 6bf6edf0744f0343e0d42f27e32b845f13f20994
